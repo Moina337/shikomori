@@ -11,7 +11,7 @@ import com.moinammaoueni.shikomori.api.dto.word.WordResponseDTO;
 import com.moinammaoueni.shikomori.api.dto.word.WordUpdateDTO;
 import com.moinammaoueni.shikomori.api.entity.Word;
 
-@Mapper(componentModel = "string")
+@Mapper(componentModel = "spring")
 public interface AllMappers {
 	
 	@Mapping(target = "id",ignore = true)
